@@ -1,111 +1,58 @@
-# Green-Lab-Course-Work-Group-5
+# Energy Efficiency of Java Garbage Collection Strategies
 
-# Green Lab – Group 5 (VU MSc CS)
+**Group 5 - Green Lab Course (VU MSc CS)**
 
-Replication package + report sources for our Green Lab project.
+Replication package and report sources for our empirical study comparing the energy consumption and performance trade-offs of Java garbage collection strategies.
 
-> **Assignments:**
->
-> * A1: Experiment description + GQM
-> * A2: Experiment design + execution plan
-> * A3: Final report + full replication package (this repo) + presentation video
->
-> Structured per the official course **Team Project Guide** and **Report Template**.
+> **Course Assignments:**
+> * **A1**: Experiment description + GQM framework *(Due: Sept 15)*
+> * **A2**: Experiment design + execution plan *(Due: Oct 2)*
+> * **A3**: Final report + replication package + presentation video *(Due: Oct 24)*
 
 ---
 
-## 1. Project scope (draft): Still in Editing, waiting for finalized choices from faculty! 
+## 1. Project Overview
 
-We study the **energy impact of Python implementation choices** by comparing baseline benchmark code against “green” variants following published guidelines (e.g., vectorization, data-structure selection). We measure **energy, time, CPU, memory** across representative Python tasks.
+We investigate the **energy efficiency of Java garbage collection strategies** by comparing Serial, Parallel, and G1 collectors across diverse benchmarks and real-world applications. Our study measures energy consumption, runtime performance, and GC behavior under varying workload conditions and JDK implementations.
 
-*(This scope fits tracks 1/2/11; we’ll finalize in A1 with GQM.)*
+**Research Questions:**
+- Which GC strategy minimizes energy consumption across Java applications?
+- How does workload intensity influence energy efficiency of different GC strategies?
+- What are the trade-offs between energy and performance for each GC strategy?
+- How does JDK implementation affect energy efficiency of GC strategies?
 
 ---
 
-## 2. How to reproduce
+## 2. Experimental Setup
 
 ### 2.1 Requirements
+* **OS**: Linux (required for RAPL energy measurements)
+* **Java**: OpenJDK 17+ and Oracle JDK 17+
+* **Python**: 3.11+ (for ExperimentRunner orchestration)
+* **R**: 4.3+ (for statistical analysis)
+* **Tools**:
+  * [ExperimentRunner](https://github.com/S2-group/experiment-runner) (experiment orchestration)
+  * [EnergiBridge](https://github.com/tdurieux/EnergiBridge) (energy measurement)
 
-* OS: Linux (dual boot recommended for stable energy readings)
-* Python 3.11+
-* R 4.3+ (for analysis)
-* Tools:
-
-  * `pyJoules` (energy metering)
-  * (Optional) Experiment Runner if we orchestrate runs via YAML
-
-### 2.2 Setup
-
+### 2.2 Setup Environment
 ```bash
 git clone https://github.com/<YOUR_USERNAME>/Green-Lab-Course-Work-Group-5.git
 cd Green-Lab-Course-Work-Group-5
-bash scripts/setup_env.sh
-```
 
-### 2.3 Run benchmarks + collect energy
+# Install dependencies
+pip install -r requirements.txt
 
-```bash
-bash scripts/run_all.sh
-```
+# Install EnergiBridge (follow platform-specific instructions)
+# Install ExperimentRunner
+git clone https://github.com/S2-group/experiment-runner.git
 
-Outputs:
-
-* CSVs in `replication/results/` (raw + aggregated)
-* Plots/tables in `replication/results/figures` & `replication/results/tables`
-
-### 2.4 Analyze (R)
+## 2.3 Run Experiments
 
 ```bash
-Rscript replication/src/r/analysis.R
-```
+# Execute full experimental suite (324 runs)
+python experiment_runner/RunnerConfig.py
 
-Generates:
-
-* Descriptive statistics, normality checks, hypothesis tests
-* Publication-ready figures and tables
-
----
-
-## 3. Repo layout
-
-```
-Green-Lab-Course-Work-Group-5/
-├─ README.md
-├─ LICENSE
-├─ .gitignore
-├─ assignments/
-│  ├─ 1_experiment_description_GQM/
-│  ├─ 2_experiment_design/
-│  └─ 3_final_report/
-├─ time_logs/
-├─ replication/
-│  ├─ src/{python,r}
-│  ├─ data/{raw,processed}
-│  ├─ results/{tables,figures}
-│  └─ notebooks/
-└─ scripts/
-```
-
----
-
-## 4. Ethics & AI policy
-
-We follow the Green Lab rule: **no AI-generated report content**; tooling/grammar assistance may be used with disclosure if needed. Do not paste AI-generated text into the report sources.
-
----
-
-## 5. Authors
-
-* Team 5: 
-
-Student 1: Rahil S - 2850828
-Student 2: András Sütő
-Student 3: Tobias Innleggen
-Student 4: Vivek Ananthapadmanabha Bharadwaj
-Student 5: Avaneesh Shetye
-
----
-
-## 6. License
-
-MIT (see `LICENSE`)
+# Alternative: Run individual GC strategies
+./scripts/run_gc_experiment.sh Serial
+./scripts/run_gc_experiment.sh Parallel
+./scripts/run_gc_experiment.sh G1
