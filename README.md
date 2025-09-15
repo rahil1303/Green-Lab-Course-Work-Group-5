@@ -3,11 +3,11 @@
 **Group 5 - Green Lab Course (VU MSc CS)**
 
 Members:
-Rahil S - 2850828
-András Zsolt Sütő - 2856739
-Tobias Meyer Innleggen - 2855564
-Vivek A Bharadwaj - 2841186
-Avaneesh Shetye - 2843910
+- Rahil S - 2850828
+- András Zsolt Sütő - 2856739
+- Tobias Meyer Innleggen - 2855564
+- Vivek A Bharadwaj - 2841186
+- Avaneesh Shetye - 2843910
 
 Replication package and report sources for our empirical study comparing the energy consumption and performance trade-offs of Java garbage collection strategies.
 
