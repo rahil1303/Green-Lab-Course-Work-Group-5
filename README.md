@@ -30,6 +30,12 @@ We investigate the **energy efficiency of Java garbage collection strategies** b
 
 ---
 
+Overleaf Link: https://www.overleaf.com/read/vjxkzrnxbmbv#61cac2
+
+TimeLog Sheet: https://docs.google.com/spreadsheets/d/1333u48gWQoafeC8ukJoe-fx9sy5RInaw/edit?usp=sharing&ouid=105392327583206963909&rtpof=true&sd=true
+
+
+
 ## 2. Experimental Setup
 
 ### 2.1 Requirements
