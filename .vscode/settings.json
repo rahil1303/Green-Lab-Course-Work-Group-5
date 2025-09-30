@@ -1,0 +1,5 @@
+{
+    "python.analysis.extraPaths": [
+        "./experiment-runner/experiment-runner"
+    ]
+}

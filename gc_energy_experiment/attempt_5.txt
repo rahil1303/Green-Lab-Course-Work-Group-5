@@ -1,0 +1,20 @@
+[EXPERIMENT_RUNNER]:  Java GC Energy Experiment initialized
+=======================  ======================================================================================================
+Key                      Value
+=======================  ======================================================================================================
+ROOT_DIR                 /Users/rahilsharma/Desktop/Green-Lab/Mock-Server/gc_energy_experiment
+current_run_data         {}
+experiment_path          /Users/rahilsharma/Desktop/Green-Lab/Mock-Server/gc_energy_experiment/experiments/gc_energy_experiment
+mock_enabled             True
+name                     gc_energy_experiment
+operation_type           OperationType.AUTO
+results_output_path      /Users/rahilsharma/Desktop/Green-Lab/Mock-Server/gc_energy_experiment/experiments
+run_table_model
+self_measure             False
+time_between_runs_in_ms  1000
+=======================  ======================================================================================================
+[EXPERIMENT_RUNNER]:  [93mReusing already existing experiment path: /Users/rahilsharma/Desktop/Green-Lab/Mock-Server/gc_energy_experiment/experiments/gc_energy_experiment[0m
+
+[91m[FAIL]: [0mEXPERIMENT_RUNNER ENCOUNTERED AN ERROR!
+
+[91mThe experiment was restarted, but all runs have already been completed.[0m

@@ -1,0 +1,240 @@
+[EXPERIMENT_RUNNER]:  Java GC Energy Experiment initialized
+=======================  ======================================================================================================
+Key                      Value
+=======================  ======================================================================================================
+ROOT_DIR                 /Users/rahilsharma/Desktop/Green-Lab/Mock-Server/gc_energy_experiment
+current_run_data         {}
+experiment_path          /Users/rahilsharma/Desktop/Green-Lab/Mock-Server/gc_energy_experiment/experiments/gc_energy_experiment
+mock_enabled             True
+name                     gc_energy_experiment
+operation_type           OperationType.AUTO
+results_output_path      /Users/rahilsharma/Desktop/Green-Lab/Mock-Server/gc_energy_experiment/experiments
+run_table_model
+self_measure             False
+time_between_runs_in_ms  1000
+=======================  ======================================================================================================
+[EXPERIMENT_RUNNER]:  [93mExperiment run table created...[0m
+[EXPERIMENT_RUNNER]:  [92mExperiment setup completed...[0m
+[EXPERIMENT_RUNNER]:  [93mCalling before_experiment config hook[0m
+[EXPERIMENT_RUNNER]:  Setting up Java GC experiment...
+[EXPERIMENT_RUNNER]:  [93mCalling before_run config hook[0m
+
+-----------------NEW RUN [1 / 12]-----------------
+
+[EXPERIMENT_RUNNER]:  [93mCalling start_run config hook[0m
+[EXPERIMENT_RUNNER]:  Starting run 1
+[EXPERIMENT_RUNNER]:  [93m... Starting measurement ...[0m
+[EXPERIMENT_RUNNER]:  [93mCalling interaction config hook[0m
+[EXPERIMENT_RUNNER]:  Context attributes: ['__class__', '__delattr__', '__dict__', '__dir__', '__doc__', '__eq__', '__format__', '__ge__', '__getattribute__', '__getstate__', '__gt__', '__hash__', '__init__', '__init_subclass__', '__le__', '__lt__', '__module__', '__ne__', '__new__', '__reduce__', '__reduce_ex__', '__repr__', '__setattr__', '__sizeof__', '__str__', '__subclasshook__', '__weakref__', 'execute_run', 'run_dir', 'run_nr']
+[EXPERIMENT_RUNNER]:  Context dict: {'execute_run': {'__run_id': 'run_0_repetition_0', '__done': 'TODO', 'gc_strategy': 'SerialGC', 'workload': 'light', 'energy_joules': ' ', 'execution_time': ' ', 'power_watts': ' ', 'exit_code': ' '}, 'run_nr': 1, 'run_dir': PosixPath('/Users/rahilsharma/Desktop/Green-Lab/Mock-Server/gc_energy_experiment/experiments/gc_energy_experiment/run_0_repetition_0')}
+[EXPERIMENT_RUNNER]:  Executing SerialGC with light workload
+[EXPERIMENT_RUNNER]:  Completed: 3.444J in 0.373s
+[EXPERIMENT_RUNNER]:  [92m... Run completed ...[0m
+[EXPERIMENT_RUNNER]:  [93m... Stopping measurement ...[0m
+[EXPERIMENT_RUNNER]:  [93mCalling stop_run config hook[0m
+[EXPERIMENT_RUNNER]:  [93mCalling populate_run_data config hook[0m
+[EXPERIMENT_RUNNER]:  [93mCSVManager: Updated row run_0_repetition_0[0m
+[EXPERIMENT_RUNNER]:  [1mRun fully ended, waiting for: 1000ms == 1.0s[0m
+[EXPERIMENT_RUNNER]:  [93mCalling before_run config hook[0m
+
+-----------------NEW RUN [2 / 12]-----------------
+
+[EXPERIMENT_RUNNER]:  [93mCalling start_run config hook[0m
+[EXPERIMENT_RUNNER]:  Starting run 2
+[EXPERIMENT_RUNNER]:  [93m... Starting measurement ...[0m
+[EXPERIMENT_RUNNER]:  [93mCalling interaction config hook[0m
+[EXPERIMENT_RUNNER]:  Context attributes: ['__class__', '__delattr__', '__dict__', '__dir__', '__doc__', '__eq__', '__format__', '__ge__', '__getattribute__', '__getstate__', '__gt__', '__hash__', '__init__', '__init_subclass__', '__le__', '__lt__', '__module__', '__ne__', '__new__', '__reduce__', '__reduce_ex__', '__repr__', '__setattr__', '__sizeof__', '__str__', '__subclasshook__', '__weakref__', 'execute_run', 'run_dir', 'run_nr']
+[EXPERIMENT_RUNNER]:  Context dict: {'execute_run': {'__run_id': 'run_1_repetition_0', '__done': 'TODO', 'gc_strategy': 'SerialGC', 'workload': 'medium', 'energy_joules': ' ', 'execution_time': ' ', 'power_watts': ' ', 'exit_code': ' '}, 'run_nr': 2, 'run_dir': PosixPath('/Users/rahilsharma/Desktop/Green-Lab/Mock-Server/gc_energy_experiment/experiments/gc_energy_experiment/run_1_repetition_0')}
+[EXPERIMENT_RUNNER]:  Executing SerialGC with medium workload
+[EXPERIMENT_RUNNER]:  Completed: 12.846J in 0.940s
+[EXPERIMENT_RUNNER]:  [92m... Run completed ...[0m
+[EXPERIMENT_RUNNER]:  [93m... Stopping measurement ...[0m
+[EXPERIMENT_RUNNER]:  [93mCalling stop_run config hook[0m
+[EXPERIMENT_RUNNER]:  [93mCalling populate_run_data config hook[0m
+[EXPERIMENT_RUNNER]:  [93mCSVManager: Updated row run_1_repetition_0[0m
+[EXPERIMENT_RUNNER]:  [1mRun fully ended, waiting for: 1000ms == 1.0s[0m
+[EXPERIMENT_RUNNER]:  [93mCalling before_run config hook[0m
+
+-----------------NEW RUN [3 / 12]-----------------
+
+[EXPERIMENT_RUNNER]:  [93mCalling start_run config hook[0m
+[EXPERIMENT_RUNNER]:  Starting run 3
+[EXPERIMENT_RUNNER]:  [93m... Starting measurement ...[0m
+[EXPERIMENT_RUNNER]:  [93mCalling interaction config hook[0m
+[EXPERIMENT_RUNNER]:  Context attributes: ['__class__', '__delattr__', '__dict__', '__dir__', '__doc__', '__eq__', '__format__', '__ge__', '__getattribute__', '__getstate__', '__gt__', '__hash__', '__init__', '__init_subclass__', '__le__', '__lt__', '__module__', '__ne__', '__new__', '__reduce__', '__reduce_ex__', '__repr__', '__setattr__', '__sizeof__', '__str__', '__subclasshook__', '__weakref__', 'execute_run', 'run_dir', 'run_nr']
+[EXPERIMENT_RUNNER]:  Context dict: {'execute_run': {'__run_id': 'run_2_repetition_0', '__done': 'TODO', 'gc_strategy': 'ParallelGC', 'workload': 'light', 'energy_joules': ' ', 'execution_time': ' ', 'power_watts': ' ', 'exit_code': ' '}, 'run_nr': 3, 'run_dir': PosixPath('/Users/rahilsharma/Desktop/Green-Lab/Mock-Server/gc_energy_experiment/experiments/gc_energy_experiment/run_2_repetition_0')}
+[EXPERIMENT_RUNNER]:  Executing ParallelGC with light workload
+[EXPERIMENT_RUNNER]:  Completed: 3.693J in 0.203s
+[EXPERIMENT_RUNNER]:  [92m... Run completed ...[0m
+[EXPERIMENT_RUNNER]:  [93m... Stopping measurement ...[0m
+[EXPERIMENT_RUNNER]:  [93mCalling stop_run config hook[0m
+[EXPERIMENT_RUNNER]:  [93mCalling populate_run_data config hook[0m
+[EXPERIMENT_RUNNER]:  [93mCSVManager: Updated row run_2_repetition_0[0m
+[EXPERIMENT_RUNNER]:  [1mRun fully ended, waiting for: 1000ms == 1.0s[0m
+[EXPERIMENT_RUNNER]:  [93mCalling before_run config hook[0m
+
+-----------------NEW RUN [4 / 12]-----------------
+
+[EXPERIMENT_RUNNER]:  [93mCalling start_run config hook[0m
+[EXPERIMENT_RUNNER]:  Starting run 4
+[EXPERIMENT_RUNNER]:  [93m... Starting measurement ...[0m
+[EXPERIMENT_RUNNER]:  [93mCalling interaction config hook[0m
+[EXPERIMENT_RUNNER]:  Context attributes: ['__class__', '__delattr__', '__dict__', '__dir__', '__doc__', '__eq__', '__format__', '__ge__', '__getattribute__', '__getstate__', '__gt__', '__hash__', '__init__', '__init_subclass__', '__le__', '__lt__', '__module__', '__ne__', '__new__', '__reduce__', '__reduce_ex__', '__repr__', '__setattr__', '__sizeof__', '__str__', '__subclasshook__', '__weakref__', 'execute_run', 'run_dir', 'run_nr']
+[EXPERIMENT_RUNNER]:  Context dict: {'execute_run': {'__run_id': 'run_3_repetition_0', '__done': 'TODO', 'gc_strategy': 'ParallelGC', 'workload': 'medium', 'energy_joules': ' ', 'execution_time': ' ', 'power_watts': ' ', 'exit_code': ' '}, 'run_nr': 4, 'run_dir': PosixPath('/Users/rahilsharma/Desktop/Green-Lab/Mock-Server/gc_energy_experiment/experiments/gc_energy_experiment/run_3_repetition_0')}
+[EXPERIMENT_RUNNER]:  Executing ParallelGC with medium workload
+[EXPERIMENT_RUNNER]:  Completed: 17.547J in 0.438s
+[EXPERIMENT_RUNNER]:  [92m... Run completed ...[0m
+[EXPERIMENT_RUNNER]:  [93m... Stopping measurement ...[0m
+[EXPERIMENT_RUNNER]:  [93mCalling stop_run config hook[0m
+[EXPERIMENT_RUNNER]:  [93mCalling populate_run_data config hook[0m
+[EXPERIMENT_RUNNER]:  [93mCSVManager: Updated row run_3_repetition_0[0m
+[EXPERIMENT_RUNNER]:  [1mRun fully ended, waiting for: 1000ms == 1.0s[0m
+[EXPERIMENT_RUNNER]:  [93mCalling before_run config hook[0m
+
+-----------------NEW RUN [5 / 12]-----------------
+
+[EXPERIMENT_RUNNER]:  [93mCalling start_run config hook[0m
+[EXPERIMENT_RUNNER]:  Starting run 5
+[EXPERIMENT_RUNNER]:  [93m... Starting measurement ...[0m
+[EXPERIMENT_RUNNER]:  [93mCalling interaction config hook[0m
+[EXPERIMENT_RUNNER]:  Context attributes: ['__class__', '__delattr__', '__dict__', '__dir__', '__doc__', '__eq__', '__format__', '__ge__', '__getattribute__', '__getstate__', '__gt__', '__hash__', '__init__', '__init_subclass__', '__le__', '__lt__', '__module__', '__ne__', '__new__', '__reduce__', '__reduce_ex__', '__repr__', '__setattr__', '__sizeof__', '__str__', '__subclasshook__', '__weakref__', 'execute_run', 'run_dir', 'run_nr']
+[EXPERIMENT_RUNNER]:  Context dict: {'execute_run': {'__run_id': 'run_4_repetition_0', '__done': 'TODO', 'gc_strategy': 'G1GC', 'workload': 'light', 'energy_joules': ' ', 'execution_time': ' ', 'power_watts': ' ', 'exit_code': ' '}, 'run_nr': 5, 'run_dir': PosixPath('/Users/rahilsharma/Desktop/Green-Lab/Mock-Server/gc_energy_experiment/experiments/gc_energy_experiment/run_4_repetition_0')}
+[EXPERIMENT_RUNNER]:  Executing G1GC with light workload
+[EXPERIMENT_RUNNER]:  Completed: 3.419J in 0.256s
+[EXPERIMENT_RUNNER]:  [92m... Run completed ...[0m
+[EXPERIMENT_RUNNER]:  [93m... Stopping measurement ...[0m
+[EXPERIMENT_RUNNER]:  [93mCalling stop_run config hook[0m
+[EXPERIMENT_RUNNER]:  [93mCalling populate_run_data config hook[0m
+[EXPERIMENT_RUNNER]:  [93mCSVManager: Updated row run_4_repetition_0[0m
+[EXPERIMENT_RUNNER]:  [1mRun fully ended, waiting for: 1000ms == 1.0s[0m
+[EXPERIMENT_RUNNER]:  [93mCalling before_run config hook[0m
+
+-----------------NEW RUN [6 / 12]-----------------
+
+[EXPERIMENT_RUNNER]:  [93mCalling start_run config hook[0m
+[EXPERIMENT_RUNNER]:  Starting run 6
+[EXPERIMENT_RUNNER]:  [93m... Starting measurement ...[0m
+[EXPERIMENT_RUNNER]:  [93mCalling interaction config hook[0m
+[EXPERIMENT_RUNNER]:  Context attributes: ['__class__', '__delattr__', '__dict__', '__dir__', '__doc__', '__eq__', '__format__', '__ge__', '__getattribute__', '__getstate__', '__gt__', '__hash__', '__init__', '__init_subclass__', '__le__', '__lt__', '__module__', '__ne__', '__new__', '__reduce__', '__reduce_ex__', '__repr__', '__setattr__', '__sizeof__', '__str__', '__subclasshook__', '__weakref__', 'execute_run', 'run_dir', 'run_nr']
+[EXPERIMENT_RUNNER]:  Context dict: {'execute_run': {'__run_id': 'run_5_repetition_0', '__done': 'TODO', 'gc_strategy': 'G1GC', 'workload': 'medium', 'energy_joules': ' ', 'execution_time': ' ', 'power_watts': ' ', 'exit_code': ' '}, 'run_nr': 6, 'run_dir': PosixPath('/Users/rahilsharma/Desktop/Green-Lab/Mock-Server/gc_energy_experiment/experiments/gc_energy_experiment/run_5_repetition_0')}
+[EXPERIMENT_RUNNER]:  Executing G1GC with medium workload
+[EXPERIMENT_RUNNER]:  Completed: 5.775J in 0.542s
+[EXPERIMENT_RUNNER]:  [92m... Run completed ...[0m
+[EXPERIMENT_RUNNER]:  [93m... Stopping measurement ...[0m
+[EXPERIMENT_RUNNER]:  [93mCalling stop_run config hook[0m
+[EXPERIMENT_RUNNER]:  [93mCalling populate_run_data config hook[0m
+[EXPERIMENT_RUNNER]:  [93mCSVManager: Updated row run_5_repetition_0[0m
+[EXPERIMENT_RUNNER]:  [1mRun fully ended, waiting for: 1000ms == 1.0s[0m
+[EXPERIMENT_RUNNER]:  [93mCalling before_run config hook[0m
+
+-----------------NEW RUN [7 / 12]-----------------
+
+[EXPERIMENT_RUNNER]:  [93mCalling start_run config hook[0m
+[EXPERIMENT_RUNNER]:  Starting run 7
+[EXPERIMENT_RUNNER]:  [93m... Starting measurement ...[0m
+[EXPERIMENT_RUNNER]:  [93mCalling interaction config hook[0m
+[EXPERIMENT_RUNNER]:  Context attributes: ['__class__', '__delattr__', '__dict__', '__dir__', '__doc__', '__eq__', '__format__', '__ge__', '__getattribute__', '__getstate__', '__gt__', '__hash__', '__init__', '__init_subclass__', '__le__', '__lt__', '__module__', '__ne__', '__new__', '__reduce__', '__reduce_ex__', '__repr__', '__setattr__', '__sizeof__', '__str__', '__subclasshook__', '__weakref__', 'execute_run', 'run_dir', 'run_nr']
+[EXPERIMENT_RUNNER]:  Context dict: {'execute_run': {'__run_id': 'run_0_repetition_1', '__done': 'TODO', 'gc_strategy': 'SerialGC', 'workload': 'light', 'energy_joules': ' ', 'execution_time': ' ', 'power_watts': ' ', 'exit_code': ' '}, 'run_nr': 7, 'run_dir': PosixPath('/Users/rahilsharma/Desktop/Green-Lab/Mock-Server/gc_energy_experiment/experiments/gc_energy_experiment/run_0_repetition_1')}
+[EXPERIMENT_RUNNER]:  Executing SerialGC with light workload
+[EXPERIMENT_RUNNER]:  Completed: 2.912J in 0.301s
+[EXPERIMENT_RUNNER]:  [92m... Run completed ...[0m
+[EXPERIMENT_RUNNER]:  [93m... Stopping measurement ...[0m
+[EXPERIMENT_RUNNER]:  [93mCalling stop_run config hook[0m
+[EXPERIMENT_RUNNER]:  [93mCalling populate_run_data config hook[0m
+[EXPERIMENT_RUNNER]:  [93mCSVManager: Updated row run_0_repetition_1[0m
+[EXPERIMENT_RUNNER]:  [1mRun fully ended, waiting for: 1000ms == 1.0s[0m
+[EXPERIMENT_RUNNER]:  [93mCalling before_run config hook[0m
+
+-----------------NEW RUN [8 / 12]-----------------
+
+[EXPERIMENT_RUNNER]:  [93mCalling start_run config hook[0m
+[EXPERIMENT_RUNNER]:  Starting run 8
+[EXPERIMENT_RUNNER]:  [93m... Starting measurement ...[0m
+[EXPERIMENT_RUNNER]:  [93mCalling interaction config hook[0m
+[EXPERIMENT_RUNNER]:  Context attributes: ['__class__', '__delattr__', '__dict__', '__dir__', '__doc__', '__eq__', '__format__', '__ge__', '__getattribute__', '__getstate__', '__gt__', '__hash__', '__init__', '__init_subclass__', '__le__', '__lt__', '__module__', '__ne__', '__new__', '__reduce__', '__reduce_ex__', '__repr__', '__setattr__', '__sizeof__', '__str__', '__subclasshook__', '__weakref__', 'execute_run', 'run_dir', 'run_nr']
+[EXPERIMENT_RUNNER]:  Context dict: {'execute_run': {'__run_id': 'run_1_repetition_1', '__done': 'TODO', 'gc_strategy': 'SerialGC', 'workload': 'medium', 'energy_joules': ' ', 'execution_time': ' ', 'power_watts': ' ', 'exit_code': ' '}, 'run_nr': 8, 'run_dir': PosixPath('/Users/rahilsharma/Desktop/Green-Lab/Mock-Server/gc_energy_experiment/experiments/gc_energy_experiment/run_1_repetition_1')}
+[EXPERIMENT_RUNNER]:  Executing SerialGC with medium workload
+[EXPERIMENT_RUNNER]:  Completed: 17.022J in 1.068s
+[EXPERIMENT_RUNNER]:  [92m... Run completed ...[0m
+[EXPERIMENT_RUNNER]:  [93m... Stopping measurement ...[0m
+[EXPERIMENT_RUNNER]:  [93mCalling stop_run config hook[0m
+[EXPERIMENT_RUNNER]:  [93mCalling populate_run_data config hook[0m
+[EXPERIMENT_RUNNER]:  [93mCSVManager: Updated row run_1_repetition_1[0m
+[EXPERIMENT_RUNNER]:  [1mRun fully ended, waiting for: 1000ms == 1.0s[0m
+[EXPERIMENT_RUNNER]:  [93mCalling before_run config hook[0m
+
+-----------------NEW RUN [9 / 12]-----------------
+
+[EXPERIMENT_RUNNER]:  [93mCalling start_run config hook[0m
+[EXPERIMENT_RUNNER]:  Starting run 9
+[EXPERIMENT_RUNNER]:  [93m... Starting measurement ...[0m
+[EXPERIMENT_RUNNER]:  [93mCalling interaction config hook[0m
+[EXPERIMENT_RUNNER]:  Context attributes: ['__class__', '__delattr__', '__dict__', '__dir__', '__doc__', '__eq__', '__format__', '__ge__', '__getattribute__', '__getstate__', '__gt__', '__hash__', '__init__', '__init_subclass__', '__le__', '__lt__', '__module__', '__ne__', '__new__', '__reduce__', '__reduce_ex__', '__repr__', '__setattr__', '__sizeof__', '__str__', '__subclasshook__', '__weakref__', 'execute_run', 'run_dir', 'run_nr']
+[EXPERIMENT_RUNNER]:  Context dict: {'execute_run': {'__run_id': 'run_2_repetition_1', '__done': 'TODO', 'gc_strategy': 'ParallelGC', 'workload': 'light', 'energy_joules': ' ', 'execution_time': ' ', 'power_watts': ' ', 'exit_code': ' '}, 'run_nr': 9, 'run_dir': PosixPath('/Users/rahilsharma/Desktop/Green-Lab/Mock-Server/gc_energy_experiment/experiments/gc_energy_experiment/run_2_repetition_1')}
+[EXPERIMENT_RUNNER]:  Executing ParallelGC with light workload
+[EXPERIMENT_RUNNER]:  Completed: 4.009J in 0.219s
+[EXPERIMENT_RUNNER]:  [92m... Run completed ...[0m
+[EXPERIMENT_RUNNER]:  [93m... Stopping measurement ...[0m
+[EXPERIMENT_RUNNER]:  [93mCalling stop_run config hook[0m
+[EXPERIMENT_RUNNER]:  [93mCalling populate_run_data config hook[0m
+[EXPERIMENT_RUNNER]:  [93mCSVManager: Updated row run_2_repetition_1[0m
+[EXPERIMENT_RUNNER]:  [1mRun fully ended, waiting for: 1000ms == 1.0s[0m
+[EXPERIMENT_RUNNER]:  [93mCalling before_run config hook[0m
+
+-----------------NEW RUN [10 / 12]-----------------
+
+[EXPERIMENT_RUNNER]:  [93mCalling start_run config hook[0m
+[EXPERIMENT_RUNNER]:  Starting run 10
+[EXPERIMENT_RUNNER]:  [93m... Starting measurement ...[0m
+[EXPERIMENT_RUNNER]:  [93mCalling interaction config hook[0m
+[EXPERIMENT_RUNNER]:  Context attributes: ['__class__', '__delattr__', '__dict__', '__dir__', '__doc__', '__eq__', '__format__', '__ge__', '__getattribute__', '__getstate__', '__gt__', '__hash__', '__init__', '__init_subclass__', '__le__', '__lt__', '__module__', '__ne__', '__new__', '__reduce__', '__reduce_ex__', '__repr__', '__setattr__', '__sizeof__', '__str__', '__subclasshook__', '__weakref__', 'execute_run', 'run_dir', 'run_nr']
+[EXPERIMENT_RUNNER]:  Context dict: {'execute_run': {'__run_id': 'run_3_repetition_1', '__done': 'TODO', 'gc_strategy': 'ParallelGC', 'workload': 'medium', 'energy_joules': ' ', 'execution_time': ' ', 'power_watts': ' ', 'exit_code': ' '}, 'run_nr': 10, 'run_dir': PosixPath('/Users/rahilsharma/Desktop/Green-Lab/Mock-Server/gc_energy_experiment/experiments/gc_energy_experiment/run_3_repetition_1')}
+[EXPERIMENT_RUNNER]:  Executing ParallelGC with medium workload
+[EXPERIMENT_RUNNER]:  Completed: 13.639J in 0.367s
+[EXPERIMENT_RUNNER]:  [92m... Run completed ...[0m
+[EXPERIMENT_RUNNER]:  [93m... Stopping measurement ...[0m
+[EXPERIMENT_RUNNER]:  [93mCalling stop_run config hook[0m
+[EXPERIMENT_RUNNER]:  [93mCalling populate_run_data config hook[0m
+[EXPERIMENT_RUNNER]:  [93mCSVManager: Updated row run_3_repetition_1[0m
+[EXPERIMENT_RUNNER]:  [1mRun fully ended, waiting for: 1000ms == 1.0s[0m
+[EXPERIMENT_RUNNER]:  [93mCalling before_run config hook[0m
+
+-----------------NEW RUN [11 / 12]-----------------
+
+[EXPERIMENT_RUNNER]:  [93mCalling start_run config hook[0m
+[EXPERIMENT_RUNNER]:  Starting run 11
+[EXPERIMENT_RUNNER]:  [93m... Starting measurement ...[0m
+[EXPERIMENT_RUNNER]:  [93mCalling interaction config hook[0m
+[EXPERIMENT_RUNNER]:  Context attributes: ['__class__', '__delattr__', '__dict__', '__dir__', '__doc__', '__eq__', '__format__', '__ge__', '__getattribute__', '__getstate__', '__gt__', '__hash__', '__init__', '__init_subclass__', '__le__', '__lt__', '__module__', '__ne__', '__new__', '__reduce__', '__reduce_ex__', '__repr__', '__setattr__', '__sizeof__', '__str__', '__subclasshook__', '__weakref__', 'execute_run', 'run_dir', 'run_nr']
+[EXPERIMENT_RUNNER]:  Context dict: {'execute_run': {'__run_id': 'run_4_repetition_1', '__done': 'TODO', 'gc_strategy': 'G1GC', 'workload': 'light', 'energy_joules': ' ', 'execution_time': ' ', 'power_watts': ' ', 'exit_code': ' '}, 'run_nr': 11, 'run_dir': PosixPath('/Users/rahilsharma/Desktop/Green-Lab/Mock-Server/gc_energy_experiment/experiments/gc_energy_experiment/run_4_repetition_1')}
+[EXPERIMENT_RUNNER]:  Executing G1GC with light workload
+[EXPERIMENT_RUNNER]:  Completed: 5.925J in 0.419s
+[EXPERIMENT_RUNNER]:  [92m... Run completed ...[0m
+[EXPERIMENT_RUNNER]:  [93m... Stopping measurement ...[0m
+[EXPERIMENT_RUNNER]:  [93mCalling stop_run config hook[0m
+[EXPERIMENT_RUNNER]:  [93mCalling populate_run_data config hook[0m
+[EXPERIMENT_RUNNER]:  [93mCSVManager: Updated row run_4_repetition_1[0m
+[EXPERIMENT_RUNNER]:  [1mRun fully ended, waiting for: 1000ms == 1.0s[0m
+[EXPERIMENT_RUNNER]:  [93mCalling before_run config hook[0m
+
+-----------------NEW RUN [12 / 12]-----------------
+
+[EXPERIMENT_RUNNER]:  [93mCalling start_run config hook[0m
+[EXPERIMENT_RUNNER]:  Starting run 12
+[EXPERIMENT_RUNNER]:  [93m... Starting measurement ...[0m
+[EXPERIMENT_RUNNER]:  [93mCalling interaction config hook[0m
+[EXPERIMENT_RUNNER]:  Context attributes: ['__class__', '__delattr__', '__dict__', '__dir__', '__doc__', '__eq__', '__format__', '__ge__', '__getattribute__', '__getstate__', '__gt__', '__hash__', '__init__', '__init_subclass__', '__le__', '__lt__', '__module__', '__ne__', '__new__', '__reduce__', '__reduce_ex__', '__repr__', '__setattr__', '__sizeof__', '__str__', '__subclasshook__', '__weakref__', 'execute_run', 'run_dir', 'run_nr']
+[EXPERIMENT_RUNNER]:  Context dict: {'execute_run': {'__run_id': 'run_5_repetition_1', '__done': 'TODO', 'gc_strategy': 'G1GC', 'workload': 'medium', 'energy_joules': ' ', 'execution_time': ' ', 'power_watts': ' ', 'exit_code': ' '}, 'run_nr': 12, 'run_dir': PosixPath('/Users/rahilsharma/Desktop/Green-Lab/Mock-Server/gc_energy_experiment/experiments/gc_energy_experiment/run_5_repetition_1')}
+[EXPERIMENT_RUNNER]:  Executing G1GC with medium workload
+[EXPERIMENT_RUNNER]:  Completed: 5.609J in 0.582s
+[EXPERIMENT_RUNNER]:  [92m... Run completed ...[0m
+[EXPERIMENT_RUNNER]:  [93m... Stopping measurement ...[0m
+[EXPERIMENT_RUNNER]:  [93mCalling stop_run config hook[0m
+[EXPERIMENT_RUNNER]:  [93mCalling populate_run_data config hook[0m
+[EXPERIMENT_RUNNER]:  [93mCSVManager: Updated row run_5_repetition_1[0m
+[EXPERIMENT_RUNNER]:  [1mRun fully ended, waiting for: 1000ms == 1.0s[0m
+[EXPERIMENT_RUNNER]:  [92mExperiment completed...[0m
+[EXPERIMENT_RUNNER]:  [93mCalling after_experiment config hook[0m
+[EXPERIMENT_RUNNER]:  Java GC experiment completed
+[EXPERIMENT_RUNNER]:  Completed 12 runs out of 12 total
+[EXPERIMENT_RUNNER]:  Average energy consumption: 7.986J
