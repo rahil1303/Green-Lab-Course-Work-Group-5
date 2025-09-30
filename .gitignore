@@ -6,3 +6,4 @@ __pycache__/
 experiment-runner/
 *.class
 *.log
+jars/*.jar
