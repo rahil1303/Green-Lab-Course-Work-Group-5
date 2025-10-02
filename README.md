@@ -32,6 +32,7 @@ The project is conducted using **ExperimentRunner** and **EnergiBridge** to coll
 ## 📂 Repository Structure
 
 
+```markdown
 Repository Structure
 .
 ├── Assignments/        # LaTeX sources & reports for A1–A3
@@ -43,6 +44,7 @@ Repository Structure
 ├── analysis/           # R/Python analysis scripts
 ├── data/               # Raw + processed experimental results
 └── README.md           # This file
+```
 ⚡ Tools & Dependencies
 
 Experiment orchestration: ExperimentRunner
@@ -59,8 +61,10 @@ Analysis: R (ANOVA, Tukey HSD), Python (matplotlib, pandas)
 
 Clone the repository:
 
+```bash
 git clone https://github.com/rahil1303/Green-Lab-Course-Work-Group-5.git
 cd Green-Lab-Course-Work-Group-5
+```
 
 Setup environment:
 
