@@ -69,3 +69,53 @@ Modern Java applications consume significant energy in production environments, 
 - R packages: `tidyverse`, `ARTool`, `emmeans`
 
 **Setup:**
+```bash
+git clone https://github.com/rahil1303/Green-Lab-Course-Work-Group-5.git
+```
+
+
+---
+
+## Tools & Technologies
+
+- **Orchestration:** [ExperimentRunner](https://github.com/S2-group/experiment-runner)
+- **Energy Measurement:** [EnergiBridge](https://github.com/S2-group/energibridge)
+- **Energy Counters:** Intel RAPL
+- **Analysis:** Python and R (ARTool, emmeans, ggplot2)
+- **Hardware:** Raspberry Pi 4 + Linux laptop
+
+---
+
+## Team
+
+| Name | Student ID | Email |
+|------|------------|-------|
+| Rahil Sharma | 2850828 | r.sharma4@student.vu.nl |
+| András Zsolt Sütő | 2856739 | a.z.suto@student.vu.nl |
+| Tobias Meyer Innleggen | 2855564 | t.m.innleggen@student.vu.nl |
+| Vivek A Bharadwaj | 2841186 | v.a.bharadwaj@student.vu.nl |
+| Avaneesh Shetye | 2843910 | a.shetye@student.vu.nl |
+
+**Time Logs:** [Google Sheets](https://docs.google.com/spreadsheets/d/your-sheet-id)
+
+---
+
+## Key References
+
+1. Shimchenko et al. (2022) - Analysing and Predicting Energy Consumption of Garbage Collectors in OpenJDK
+2. Lengauer et al. (2017) - A Comprehensive Java Benchmark Study on Memory and GC Behavior
+3. Ournani et al. (2021) - Evaluating the Impact of Java Virtual Machines on Energy Consumption
+
+Full bibliography: `Resources/references.bib`
+
+---
+
+## License
+
+MIT License - see [LICENSE](LICENSE) file for details.
+
+---
+
+## Acknowledgments
+
+Conducted as part of the Green Lab course at VU Amsterdam, supervised by the [S2 Research Group](https://s2group.cs.vu.nl/). Thanks to Vincenzo Stoico and Ivano Malavolta for guidance.
