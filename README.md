@@ -48,7 +48,8 @@ Modern Java applications consume significant energy in production environments, 
 
 ## Repository Structure
 
-- **Assignment_1/** - LaTeX sources for Assignment 1
+- **Assignment_1/** - LaTeX and technical sources for Assignment 1
+- **Assignment_2/** - Run_Table.csv discussion for every setup discussed in Assignment 2 and explaining the progress so far
 - **Basic-Topic-Work/** - Initial exploration and setup
 - **Mock-Server/** - Development mock RAPL interface
 - **Overleaf/** - Overleaf-synced LaTeX files
