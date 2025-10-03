@@ -96,7 +96,7 @@ git clone https://github.com/rahil1303/Green-Lab-Course-Work-Group-5.git
 | Vivek A Bharadwaj | 2841186 | v.a.bharadwaj@student.vu.nl |
 | Avaneesh Shetye | 2843910 | a.shetye@student.vu.nl |
 
-**Time Logs:** [Google Sheets](https://docs.google.com/spreadsheets/d/your-sheet-id)
+**Time Logs:** [Google Sheets](https://docs.google.com/spreadsheets/d/1333u48gWQoafeC8ukJoe-fx9sy5RInaw/edit?usp=sharing&ouid=105392327583206963909&rtpof=true&sd=true)
 
 ---
 
