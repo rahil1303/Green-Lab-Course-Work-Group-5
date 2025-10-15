@@ -11,3 +11,14 @@ Pre_Check Script:
 
 -> You execute the script once before the multi-night campaign to ensure everything (Java, RAPL, EnergiBridge, SSH, CPU governor) is perfect.
 
+
+Single Experiment Script: When this finishes, you’ll know for certain that:
+
+-> Every subject JAR launches correctly.
+
+-> EnergiBridge measures energy without permission errors.
+
+-> Java 17 installations and GC flags work fine.
+
+-> Logging directories are writable.
+
