@@ -1,0 +1,85 @@
+╔════════════════════════════════════════╗
+║  PRE-CHECK: LINUX LAPTOP (DUT)        ║
+╚════════════════════════════════════════╝
+
+════════════════════════════════════════
+1. SYSTEM ENVIRONMENT
+════════════════════════════════════════
+✓ Running on Linux
+  Kernel: 6.14.0-33-generic
+
+════════════════════════════════════════
+2. JAVA INSTALLATION
+════════════════════════════════════════
+  Java: openjdk version "17.0.16" 2025-07-15
+✓ Java installed
+
+════════════════════════════════════════
+3. RAPL COUNTERS
+════════════════════════════════════════
+✓ RAPL interface found
+  Available RAPL domains:
+    - package-0
+✓ Can read RAPL counters
+
+════════════════════════════════════════
+4. ENERGIBRIDGE
+════════════════════════════════════════
+✓ EnergiBridge installed
+  Testing EnergiBridge (5 second sample)...
+✓ EnergiBridge test successful
+
+════════════════════════════════════════
+5. TEMPERATURE MONITORING
+════════════════════════════════════════
+✓ lm-sensors installed
+  Current CPU temp: 43.0°C
+✓ Temperature below 50°C
+
+════════════════════════════════════════
+6. CPU CONFIGURATION
+════════════════════════════════════════
+  CPU Governor: powersave
+⚠ Governor is 'powersave' (should be 'performance')
+    Fix: sudo cpupower frequency-set -g performance
+⚠ Turbo Boost enabled (should be disabled)
+    Fix: echo 1 | sudo tee /sys/devices/system/cpu/intel_pstate/no_turbo
+
+════════════════════════════════════════
+7. SSH ACCESS (for Raspberry Pi)
+════════════════════════════════════════
+✓ SSH daemon running
+✓ SSH authorized_keys exists
+
+════════════════════════════════════════
+8. EXPERIMENT FILES
+════════════════════════════════════════
+✓ Subjects directory exists
+✓ Found dacapo.jar
+✓ Found binarytrees.jar
+✓ Found fannkuchredux.jar
+✓ Found nbody.jar
+✓ Found fibonacci.jar
+✓ Found petclinic.jar
+✓ Found todoapp.jar
+✓ Found imageapp.jar
+✓ Execution script found
+
+════════════════════════════════════════
+9. BASELINE MEASUREMENTS
+════════════════════════════════════════
+Taking 10-second baseline...
+✓ Baseline temperature recorded
+✓ Baseline CPU load recorded
+  Recording 10s idle RAPL...
+✓ Baseline RAPL recorded
+
+════════════════════════════════════════
+SUMMARY
+════════════════════════════════════════
+Passed: 23
+Failed: 0
+
+✓ LAPTOP READY FOR EXPERIMENTS!
+
+Next: Configure Raspberry Pi and start experiments
