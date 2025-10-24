@@ -1,0 +1,145 @@
+__run_id,__done,subject,gc,workload,jdk,energy_j,runtime_s,status,batch_num
+run_0_repetition_0,DONE,DaCapo,Serial,Light,openjdk,,,FAILED,1
+run_1_repetition_0,DONE,DaCapo,Serial,Light,oracle,,,FAILED,1
+run_2_repetition_0,DONE,DaCapo,Serial,Medium,openjdk,,,FAILED,1
+run_3_repetition_0,DONE,DaCapo,Serial,Medium,oracle,,,FAILED,1
+run_4_repetition_0,DONE,DaCapo,Serial,Heavy,openjdk,,,FAILED,1
+run_5_repetition_0,DONE,DaCapo,Serial,Heavy,oracle,,,FAILED,1
+run_6_repetition_0,DONE,DaCapo,Parallel,Light,openjdk,,,FAILED,1
+run_7_repetition_0,DONE,DaCapo,Parallel,Light,oracle,,,FAILED,1
+run_8_repetition_0,DONE,DaCapo,Parallel,Medium,openjdk,,,FAILED,1
+run_9_repetition_0,DONE,DaCapo,Parallel,Medium,oracle,,,FAILED,1
+run_10_repetition_0,DONE,DaCapo,Parallel,Heavy,openjdk,,,FAILED,1
+run_11_repetition_0,DONE,DaCapo,Parallel,Heavy,oracle,,,FAILED,1
+run_12_repetition_0,DONE,DaCapo,G1,Light,openjdk,,,FAILED,1
+run_13_repetition_0,DONE,DaCapo,G1,Light,oracle,,,FAILED,1
+run_14_repetition_0,DONE,DaCapo,G1,Medium,openjdk,,,FAILED,1
+run_15_repetition_0,DONE,DaCapo,G1,Medium,oracle,,,FAILED,1
+run_16_repetition_0,DONE,DaCapo,G1,Heavy,openjdk,1760630527977.0,8.3648,SUCCESS,1
+run_17_repetition_0,DONE,DaCapo,G1,Heavy,oracle,1760630688583.0,8.18509,SUCCESS,1
+run_18_repetition_0,DONE,CLBG-BinaryTrees,Serial,Light,openjdk,1760630841744.0,0.530393,SUCCESS,1
+run_19_repetition_0,DONE,CLBG-BinaryTrees,Serial,Light,oracle,1760630964828.0,0.555524,SUCCESS,1
+run_20_repetition_0,DONE,CLBG-BinaryTrees,Serial,Medium,openjdk,1760631088097.0,0.766545,SUCCESS,1
+run_21_repetition_0,DONE,CLBG-BinaryTrees,Serial,Medium,oracle,1760631241389.0,0.761846,SUCCESS,1
+run_22_repetition_0,DONE,CLBG-BinaryTrees,Serial,Heavy,openjdk,1760631364949.0,0.902539,SUCCESS,1
+run_23_repetition_0,DONE,CLBG-BinaryTrees,Serial,Heavy,oracle,1760631488365.0,0.958337,SUCCESS,1
+run_24_repetition_0,DONE,CLBG-BinaryTrees,Parallel,Light,openjdk,1760631641251.0,0.533369,SUCCESS,1
+run_25_repetition_0,DONE,CLBG-BinaryTrees,Parallel,Light,oracle,1760631764425.0,0.571983,SUCCESS,1
+run_26_repetition_0,DONE,CLBG-BinaryTrees,Parallel,Medium,openjdk,1760631887745.0,0.762937,SUCCESS,1
+run_27_repetition_0,DONE,CLBG-BinaryTrees,Parallel,Medium,oracle,1760632041033.0,0.754687,SUCCESS,1
+run_28_repetition_0,DONE,CLBG-BinaryTrees,Parallel,Heavy,openjdk,1760632164531.0,0.903002,SUCCESS,1
+run_29_repetition_0,DONE,CLBG-BinaryTrees,Parallel,Heavy,oracle,1760632287918.0,0.928439,SUCCESS,1
+run_30_repetition_0,DONE,CLBG-BinaryTrees,G1,Light,openjdk,1760632411028.0,0.553626,SUCCESS,1
+run_31_repetition_0,DONE,CLBG-BinaryTrees,G1,Light,oracle,1760632534167.0,0.558048,SUCCESS,1
+run_32_repetition_0,DONE,CLBG-BinaryTrees,G1,Medium,openjdk,1760632657087.0,0.503351,SUCCESS,1
+run_33_repetition_0,DONE,CLBG-BinaryTrees,G1,Medium,oracle,1760632780009.0,0.492722,SUCCESS,1
+run_34_repetition_0,DONE,CLBG-BinaryTrees,G1,Heavy,openjdk,1760632903683.0,1.16085,SUCCESS,1
+run_35_repetition_0,DONE,CLBG-BinaryTrees,G1,Heavy,oracle,1760633027312.0,1.17667,SUCCESS,1
+run_36_repetition_0,DONE,CLBG-Fannkuch,Serial,Light,openjdk,1760633150155.0,0.522769,SUCCESS,1
+run_37_repetition_0,DONE,CLBG-Fannkuch,Serial,Light,oracle,1760633273364.0,0.58214,SUCCESS,1
+run_38_repetition_0,DONE,CLBG-Fannkuch,Serial,Medium,openjdk,1760633396570.0,0.758469,SUCCESS,1
+run_39_repetition_0,DONE,CLBG-Fannkuch,Serial,Medium,oracle,1760633519809.0,0.742817,SUCCESS,1
+run_40_repetition_0,DONE,CLBG-Fannkuch,Serial,Heavy,openjdk,1760633647453.0,4.95899,SUCCESS,1
+run_41_repetition_0,DONE,CLBG-Fannkuch,Serial,Heavy,oracle,1760633804858.0,4.90843,SUCCESS,1
+run_42_repetition_0,DONE,CLBG-Fannkuch,Parallel,Light,openjdk,1760633957827.0,0.517801,SUCCESS,1
+run_43_repetition_0,DONE,CLBG-Fannkuch,Parallel,Light,oracle,1760634080894.0,0.543187,SUCCESS,1
+run_44_repetition_0,DONE,CLBG-Fannkuch,Parallel,Medium,openjdk,1760634204244.0,0.754629,SUCCESS,1
+run_45_repetition_0,DONE,CLBG-Fannkuch,Parallel,Medium,oracle,1760634327346.0,0.698012,SUCCESS,1
+run_46_repetition_0,DONE,CLBG-Fannkuch,Parallel,Heavy,openjdk,,,FAILED,1
+run_47_repetition_0,DONE,CLBG-Fannkuch,Parallel,Heavy,oracle,,,FAILED,1
+run_48_repetition_0,DONE,CLBG-Fannkuch,G1,Light,openjdk,,,FAILED,1
+run_49_repetition_0,DONE,CLBG-Fannkuch,G1,Light,oracle,,,FAILED,1
+run_50_repetition_0,DONE,CLBG-Fannkuch,G1,Medium,openjdk,,,FAILED,1
+run_51_repetition_0,DONE,CLBG-Fannkuch,G1,Medium,oracle,,,FAILED,1
+run_52_repetition_0,DONE,CLBG-Fannkuch,G1,Heavy,openjdk,,,FAILED,1
+run_53_repetition_0,DONE,CLBG-Fannkuch,G1,Heavy,oracle,,,FAILED,1
+run_54_repetition_0,DONE,CLBG-NBody,Serial,Light,openjdk,1760781277281.0,0.972206,SUCCESS,1
+run_55_repetition_0,DONE,CLBG-NBody,Serial,Light,oracle,1760781400298.0,0.749186,SUCCESS,1
+run_56_repetition_0,DONE,CLBG-NBody,Serial,Medium,openjdk,1760781525103.0,2.15855,SUCCESS,1
+run_57_repetition_0,DONE,CLBG-NBody,Serial,Medium,oracle,1760781679755.0,2.16629,SUCCESS,1
+run_58_repetition_0,DONE,CLBG-NBody,Serial,Heavy,openjdk,1760781835929.0,3.7084,SUCCESS,1
+run_59_repetition_0,DONE,CLBG-NBody,Serial,Heavy,oracle,1760781992538.0,4.11516,SUCCESS,1
+run_60_repetition_0,DONE,CLBG-NBody,Parallel,Light,openjdk,1760782176060.0,0.948945,SUCCESS,1
+run_61_repetition_0,DONE,CLBG-NBody,Parallel,Light,oracle,1760782299553.0,0.731812,SUCCESS,1
+run_62_repetition_0,DONE,CLBG-NBody,Parallel,Medium,openjdk,1760782424232.0,2.15677,SUCCESS,1
+run_63_repetition_0,DONE,CLBG-NBody,Parallel,Medium,oracle,1760782578856.0,2.12255,SUCCESS,1
+run_64_repetition_0,DONE,CLBG-NBody,Parallel,Heavy,openjdk,1760782735362.0,3.95429,SUCCESS,1
+run_65_repetition_0,DONE,CLBG-NBody,Parallel,Heavy,oracle,1760782891836.0,3.97044,SUCCESS,1
+run_66_repetition_0,DONE,CLBG-NBody,G1,Light,openjdk,1760783045197.0,0.776717,SUCCESS,1
+run_67_repetition_0,DONE,CLBG-NBody,G1,Light,oracle,1760783198371.0,0.734205,SUCCESS,1
+run_68_repetition_0,DONE,CLBG-NBody,G1,Medium,openjdk,1760783323098.0,2.15052,SUCCESS,1
+run_69_repetition_0,DONE,CLBG-NBody,G1,Medium,oracle,1760783477905.0,2.1476,SUCCESS,1
+run_70_repetition_0,DONE,CLBG-NBody,G1,Heavy,openjdk,1760783634396.0,3.96562,SUCCESS,1
+run_71_repetition_0,DONE,CLBG-NBody,G1,Heavy,oracle,1760783790766.0,3.92752,SUCCESS,1
+run_72_repetition_0,DONE,Rosetta,Serial,Light,openjdk,1760783944057.0,0.606962,SUCCESS,1
+run_73_repetition_0,DONE,Rosetta,Serial,Light,oracle,1760784066954.0,0.569109,SUCCESS,1
+run_74_repetition_0,DONE,Rosetta,Serial,Medium,openjdk,1760784189879.0,0.593264,SUCCESS,1
+run_75_repetition_0,DONE,Rosetta,Serial,Medium,oracle,1760784312891.0,0.548198,SUCCESS,1
+run_76_repetition_0,DONE,Rosetta,Serial,Heavy,openjdk,1760784435710.0,0.484679,SUCCESS,1
+run_77_repetition_0,DONE,Rosetta,Serial,Heavy,oracle,1760784558384.0,0.511386,SUCCESS,1
+run_78_repetition_0,DONE,Rosetta,Parallel,Light,openjdk,1760784681165.0,0.541478,SUCCESS,1
+run_79_repetition_0,DONE,Rosetta,Parallel,Light,oracle,1760784804367.0,0.563674,SUCCESS,1
+run_80_repetition_0,DONE,Rosetta,Parallel,Medium,openjdk,1760784927522.0,0.548872,SUCCESS,1
+run_81_repetition_0,DONE,Rosetta,Parallel,Medium,oracle,1760785050649.0,0.58031,SUCCESS,1
+run_82_repetition_0,DONE,Rosetta,Parallel,Heavy,openjdk,1760785173777.0,0.572119,SUCCESS,1
+run_83_repetition_0,DONE,Rosetta,Parallel,Heavy,oracle,1760785296835.0,0.526462,SUCCESS,1
+run_84_repetition_0,DONE,Rosetta,G1,Light,openjdk,1760785419806.0,0.531874,SUCCESS,1
+run_85_repetition_0,DONE,Rosetta,G1,Light,oracle,1760785542955.0,0.549671,SUCCESS,1
+run_86_repetition_0,DONE,Rosetta,G1,Medium,openjdk,1760785666094.0,0.56662,SUCCESS,1
+run_87_repetition_0,DONE,Rosetta,G1,Medium,oracle,1760785789112.0,0.521337,SUCCESS,1
+run_88_repetition_0,DONE,Rosetta,G1,Heavy,openjdk,1760785912153.0,0.560814,SUCCESS,1
+run_89_repetition_0,DONE,Rosetta,G1,Heavy,oracle,1760786034963.0,0.560658,SUCCESS,1
+run_90_repetition_0,DONE,PetClinic,Serial,Light,openjdk,,,FAILED,1
+run_91_repetition_0,DONE,PetClinic,Serial,Light,oracle,,,FAILED,1
+run_92_repetition_0,DONE,PetClinic,Serial,Medium,openjdk,,,FAILED,1
+run_93_repetition_0,DONE,PetClinic,Serial,Medium,oracle,,,FAILED,1
+run_94_repetition_0,DONE,PetClinic,Serial,Heavy,openjdk,,,FAILED,1
+run_95_repetition_0,DONE,PetClinic,Serial,Heavy,oracle,,,FAILED,1
+run_96_repetition_0,DONE,PetClinic,Parallel,Light,openjdk,,,FAILED,1
+run_97_repetition_0,DONE,PetClinic,Parallel,Light,oracle,,,FAILED,1
+run_98_repetition_0,TODO,PetClinic,Parallel,Medium,openjdk, , , , 
+run_99_repetition_0,TODO,PetClinic,Parallel,Medium,oracle, , , , 
+run_100_repetition_0,TODO,PetClinic,Parallel,Heavy,openjdk, , , , 
+run_101_repetition_0,TODO,PetClinic,Parallel,Heavy,oracle, , , , 
+run_102_repetition_0,TODO,PetClinic,G1,Light,openjdk, , , , 
+run_103_repetition_0,TODO,PetClinic,G1,Light,oracle, , , , 
+run_104_repetition_0,TODO,PetClinic,G1,Medium,openjdk, , , , 
+run_105_repetition_0,TODO,PetClinic,G1,Medium,oracle, , , , 
+run_106_repetition_0,TODO,PetClinic,G1,Heavy,openjdk, , , , 
+run_107_repetition_0,TODO,PetClinic,G1,Heavy,oracle, , , , 
+run_108_repetition_0,TODO,TodoApp,Serial,Light,openjdk, , , , 
+run_109_repetition_0,TODO,TodoApp,Serial,Light,oracle, , , , 
+run_110_repetition_0,TODO,TodoApp,Serial,Medium,openjdk, , , , 
+run_111_repetition_0,TODO,TodoApp,Serial,Medium,oracle, , , , 
+run_112_repetition_0,TODO,TodoApp,Serial,Heavy,openjdk, , , , 
+run_113_repetition_0,TODO,TodoApp,Serial,Heavy,oracle, , , , 
+run_114_repetition_0,TODO,TodoApp,Parallel,Light,openjdk, , , , 
+run_115_repetition_0,TODO,TodoApp,Parallel,Light,oracle, , , , 
+run_116_repetition_0,TODO,TodoApp,Parallel,Medium,openjdk, , , , 
+run_117_repetition_0,TODO,TodoApp,Parallel,Medium,oracle, , , , 
+run_118_repetition_0,TODO,TodoApp,Parallel,Heavy,openjdk, , , , 
+run_119_repetition_0,TODO,TodoApp,Parallel,Heavy,oracle, , , , 
+run_120_repetition_0,TODO,TodoApp,G1,Light,openjdk, , , , 
+run_121_repetition_0,TODO,TodoApp,G1,Light,oracle, , , , 
+run_122_repetition_0,TODO,TodoApp,G1,Medium,openjdk, , , , 
+run_123_repetition_0,TODO,TodoApp,G1,Medium,oracle, , , , 
+run_124_repetition_0,TODO,TodoApp,G1,Heavy,openjdk, , , , 
+run_125_repetition_0,TODO,TodoApp,G1,Heavy,oracle, , , , 
+run_126_repetition_0,TODO,ANDIE,Serial,Light,openjdk, , , , 
+run_127_repetition_0,TODO,ANDIE,Serial,Light,oracle, , , , 
+run_128_repetition_0,TODO,ANDIE,Serial,Medium,openjdk, , , , 
+run_129_repetition_0,TODO,ANDIE,Serial,Medium,oracle, , , , 
+run_130_repetition_0,TODO,ANDIE,Serial,Heavy,openjdk, , , , 
+run_131_repetition_0,TODO,ANDIE,Serial,Heavy,oracle, , , , 
+run_132_repetition_0,TODO,ANDIE,Parallel,Light,openjdk, , , , 
+run_133_repetition_0,TODO,ANDIE,Parallel,Light,oracle, , , , 
+run_134_repetition_0,TODO,ANDIE,Parallel,Medium,openjdk, , , , 
+run_135_repetition_0,TODO,ANDIE,Parallel,Medium,oracle, , , , 
+run_136_repetition_0,TODO,ANDIE,Parallel,Heavy,openjdk, , , , 
+run_137_repetition_0,TODO,ANDIE,Parallel,Heavy,oracle, , , , 
+run_138_repetition_0,TODO,ANDIE,G1,Light,openjdk, , , , 
+run_139_repetition_0,TODO,ANDIE,G1,Light,oracle, , , , 
+run_140_repetition_0,TODO,ANDIE,G1,Medium,openjdk, , , , 
+run_141_repetition_0,TODO,ANDIE,G1,Medium,oracle, , , , 
+run_142_repetition_0,TODO,ANDIE,G1,Heavy,openjdk, , , , 
+run_143_repetition_0,TODO,ANDIE,G1,Heavy,oracle, , , , 
