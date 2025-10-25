@@ -91,7 +91,7 @@ under varying **workloads** (`Light`, `Medium`, `Heavy`) and **JDK implementatio
 
 ### Design Summary
 - **Experimental Design:** Randomized Complete Block Design (RCBD)
-- **Total runs:** 324 (6 factors × 3 GC × 3 workloads × 2 JDK × 3 repetitions)
+- **Total runs:** 576 (8 factors × 3 GC × 3 workloads × 2 JDK × 4 repetitions)
 - **Measurement Tool:** Intel RAPL via EnergiBridge Plugin
 - **Target Device:** Linux DUT (Intel Core i7, Ubuntu 22.04+)
 - **Controller Device:** Raspberry Pi 4B (8GB)
