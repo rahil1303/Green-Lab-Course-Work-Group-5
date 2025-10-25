@@ -11,7 +11,7 @@ An empirical study investigating the energy-performance trade-offs of Java Garba
 
 **For the Replication Package, move towards the Replication_Package directory for instructions and clone the repositiory.** 
 
-** Replication Package also contains a data directory which contains raw data, EDA and R Studio analysis to give the graders an idea about Data Analysis and Results rationales.**
+**Replication Package also contains a data directory which contains raw data, EDA and R Studio analysis to give the graders an idea about Data Analysis and Results rationales.**
 
 ---
 
