@@ -30,9 +30,9 @@ Modern Java applications consume significant energy in production environments, 
 | Aspect | Details |
 |--------|---------|
 | **Design Type** | Randomized Complete Block Design (RCBD) |
-| **Total Runs** | 324 (6 subjects × 3 GC × 3 workloads × 2 JDKs × 3 replications) |
+| **Total Runs** | 576 (8 subjects × 3 GC × 3 workloads × 2 JDKs × 4 replications) |
 | **Measurement** | Intel RAPL via EnergiBridge |
-| **Duration** | ~20-25 hours |
+| **Duration** | ~40-48 hours |
 
 **Independent Variables:**
 - GC Strategy: Serial, Parallel, G1
