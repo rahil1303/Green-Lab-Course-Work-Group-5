@@ -9,6 +9,8 @@
 
 An empirical study investigating the energy-performance trade-offs of Java Garbage Collection strategies (Serial, Parallel, G1) across diverse workloads and JDK implementations.
 
+**For the Replication Package, move towards the Replication_Package directory for instructions and clone the repositiory.**
+
 ---
 
 ## Overview
