@@ -9,6 +9,44 @@ It provides:
 - and execution instructions to replicate the full energy measurement setup.
 
 ---
+## 🪄 Quick Replication Steps
+
+* Clone this repository
+```bash
+git clone https://github.com/rahil1303/Green-Lab-Course-Work-Group-5.git
+```
+
+* Have the `subjects` directory available on the DUT main directory (adjust path according to your system). Download from Google Drive: 🔗 [Subjects Directory (Google Drive)](https://drive.google.com/drive/folders/1YRCqwt6g1wSlfiO5stOhibTMjyNQMe5t)
+
+* Have the DUT shell scripts (`Run_Single_Experiment.sh` and `Service_Apps_Run_Single_Experiment.sh`) available on the DUT main directory (adjust path accordingly).
+
+* Run the DUT preparation script before executing from RPi
+```bash
+./run_benchmark.sh
+```
+
+* Inspect and fix Java paths (Oracle JDK and OpenJDK) inside the shell scripts:
+```bash
+export JDK_OPEN_PATH=/usr/lib/jvm/java-17-openjdk-amd64
+export JDK_ORACLE_PATH=/usr/lib/jvm/jdk-17-oracle
+```
+
+* Make sure the EnergiBridge framework is installed on the DUT.
+
+* Ensure the DUT user has appropriate pseudo-privileges (sudo access to `/sys/class/powercap`).
+
+* Edit `Run_Config_Batch.py` with the correct user and DUT details:
+```python
+LAPTOP_USER = "your_username"
+LAPTOP_HOST = "192.168.x.x"
+LAPTOP_EXPERIMENT_DIR = "/home/your_username/greenlab-dut"
+```
+
+* Execute the experiment from the Raspberry Pi:
+```bash
+python3 -m greenlab_rpi.Run_Config_Batch
+```
+---
 
 ## 📂 Directory Structure
 ```
@@ -57,6 +95,15 @@ under varying **workloads** (`Light`, `Medium`, `Heavy`) and **JDK implementatio
 - **Measurement Tool:** Intel RAPL via EnergiBridge Plugin
 - **Target Device:** Linux DUT (Intel Core i7, Ubuntu 22.04+)
 - **Controller Device:** Raspberry Pi 4B (8GB)
+
+---
+## 📄 Function of Each File
+
+* **`Run_Config_Batch.py`** — Handles the main data collection process. Runs the Experiment Runner framework, builds the run table, SSHs into the DUT, and executes the shell scripts for each experimental variation.
+
+* **`Run_Single_Experiment.sh`** and **`Service_Apps_Run_Single_Experiment.sh`** — Shell scripts executed on the DUT. They launch the Java applications (benchmarks or service apps), monitor runtime and energy via Intel RAPL using the EnergiBridge framework, and save results in `energy.csv` and `result.csv`.
+
+* **`run_benchmark.sh`** — Prepares the DUT for execution (e.g., cleaning temp files, validating directory paths, ensuring correct permissions) before experiments are started from the RPi.
 
 ---
 
