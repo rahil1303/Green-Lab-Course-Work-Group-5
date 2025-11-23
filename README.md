@@ -1,4 +1,4 @@
-# 🌱 Green Lab Project – Group 5
+# 🌱 Green Lab Project Submission
 
 **Topic:** Energy Efficiency of Java Garbage Collection Strategies  
 **Course:** Green Lab 2025/2026 – MSc Computer Science (VU Amsterdam)
@@ -96,13 +96,6 @@ git clone https://github.com/rahil1303/Green-Lab-Course-Work-Group-5.git
 | Name | Student ID | Email |
 |------|------------|-------|
 | Rahil Sharma | 2850828 | r.sharma4@student.vu.nl |
-| András Zsolt Sütő | 2856739 | a.z.suto@student.vu.nl |
-| Tobias Meyer Innleggen | 2855564 | t.m.innleggen@student.vu.nl |
-| Vivek A Bharadwaj | 2841186 | v.a.bharadwaj@student.vu.nl |
-| Avaneesh Shetye | 2843910 | a.shetye@student.vu.nl |
-
-**Time Logs:** [Google Sheets](https://docs.google.com/spreadsheets/d/1333u48gWQoafeC8ukJoe-fx9sy5RInaw/edit?usp=sharing&ouid=105392327583206963909&rtpof=true&sd=true)
-
 ---
 
 ## Key References
